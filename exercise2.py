@@ -8,13 +8,13 @@
 
 #  “Long word” if more than 8
 
-word = str(input("Please enter your word: "))
+word = input("Please enter your word: ")
 length = len(word)
 
 if (length < 5 ):
     print("Short Word")
 elif(length  <= 8 ):
-    print(" Medium word")
+    print("Medium word")
 else:
     print ("Long word")
     
