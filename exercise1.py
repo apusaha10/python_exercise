@@ -15,5 +15,21 @@
 
 num = int(input("Please Enter your Number: "))      # a variable is created to take input form
 
-if ( num >= 90 and num <= 100 ):
-    print(" Grade : A")
+if ( num < 0  or num > 100):
+    print("Your Number is not valid , Please Enter a Number Between 0 and 100")
+else:
+    if ( num >= 90 ):
+        grade = "A"
+    elif( num >= 80 ):
+        grade = "B"
+    elif ( num >= 70 ):
+        grade = "C"
+    elif (num >= 60 ):
+        grade = "D"
+    else:
+        grade = "F"
+
+    print( "Your grade is ",grade )
+    
+    
+# 1st challenege is done
